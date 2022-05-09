@@ -1,5 +1,5 @@
-const Jornadas = require("../models/jornadas.model");
-const Equipos = require("../models/equipos.model");
+const Jornada = require("../models/jornadas.model");
+const Equipo = require("../models/equipos.model");
 
 function ingresarJornada(req, res) {
     var modeloJornada = new Jornada();
